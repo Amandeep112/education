@@ -1,0 +1,125 @@
+ 
+.Container{
+ margin: 0;    
+ padding: 0;
+ position: relative;
+ 
+}
+.Imgage{
+   position: relative;
+  display: flex;
+  align-items: center;
+ justify-content: center;
+  filter: brightness(30%);
+
+}
+.conAndform{
+  top: 1rem;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.headSignup p{
+  color: red;
+}
+.ContentContainer {
+   
+    color: white
+    
+}
+.ContentContainer h2{
+  font-size: 29px;
+}
+.heading{
+  color: #f60;
+  font-weight: 500;
+  letter-spacing: 3px;
+  font-size: 18px;
+}
+.paragraph{
+width: 35rem;
+color:white;
+box-sizing: border-box;
+}
+.list li{
+list-style: none;
+color:#f60;
+display: flex;
+align-items: center;
+
+}
+.list p{
+  color: white;
+  margin-left:1rem ;
+}
+.Signupform{
+   
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+    width: 24rem;
+    border-radius: 1rem;
+
+}
+.Signupform p{
+  margin: 0;
+}
+.headSignup {
+  display: flex;
+  align-items: center;
+    justify-content: center;
+    color: #44425a;
+    font-size: 19px;
+    background-color: white;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.headSignup h1{
+ 
+  margin: 0;
+  width: 100%;
+  display: flex;
+  font-weight: 700  ;
+  justify-content: center;
+  padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+ 
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem 2.5rem 2rem;
+    background-color: #f60;
+    border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+    
+}
+.form input {
+  padding: 0.6rem 0rem 0.6rem 0rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 6px;
+}
+.form input::placeholder{
+padding-left: 1rem;
+}
+ 
+.select{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;       
+  padding: 0.6rem 0rem 0.5rem 0.6rem;
+ border-radius: 6px;
+
+}
+.select option{
+padding-left: 1rem;
+color: #44425a;
+
+}
+.submitbtn{
+  margin-bottom: 0rem !important;
+  color: white;
+  padding: 0.9rem 0rem 0.9rem 0rem !important;
+  background-color: #44425a  ;
+}

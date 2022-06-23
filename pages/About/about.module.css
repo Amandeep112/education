@@ -1,0 +1,43 @@
+.container{
+    
+}
+
+.libimgcon{
+     display: flex;
+     margin: 5rem 3rem 5rem 3rem;
+ }
+
+.libimg {
+    border: none;
+    border-radius: 7px;
+}
+.smallheadingbox h3{
+    color: #f60;
+letter-spacing: 3px;
+font-weight: 600;
+}
+
+.largeheadingbox h1{
+    color: #44425a;
+
+
+}
+
+.content{
+    margin-left: 2rem;
+
+}
+.btnbox{
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 7px;
+    font-weight: 600;
+   background-color: #f60 ;
+   color: antiquewhite;
+}
+.parabox p{
+    width: 35rem;
+    letter-spacing: 1px;
+     color: #44425a;
+    box-sizing: border-box; 
+}

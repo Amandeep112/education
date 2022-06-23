@@ -1,0 +1,47 @@
+.container{
+display:flex; 
+} 
+.Image{
+    position: relative; 
+    filter: brightness(50%);
+    display: flex;
+    flex-wrap: wrap;
+}
+.banner{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; 
+     margin-top: 9rem;
+     
+}
+.titlesmall{ 
+    font-weight: 600;
+    font-size: 13px;
+    color: aliceblue;
+    margin-left: 15rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+.titleLarge{
+    box-sizing: border-box;
+   letter-spacing: 1px;
+    color: aliceblue;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-left: 15rem;   
+    margin-bottom: 1re;
+    margin-top: 0;
+}
+.learnMore{ 
+  padding: 10px 20px 10px 20px;
+  border: none;
+  border-radius: 7px;
+  font-weight: bold;
+ background-color: #f60 ;
+ color: antiquewhite; 
+ margin-left: 15rem;    
+}
+.learnMore:hover{
+    background-color: rgb(199, 98, 31) ; 
+}

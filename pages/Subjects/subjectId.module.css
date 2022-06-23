@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5rem 3rem 5rem 3rem; 
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    filter: brightness(50%);
+}
+
+.img{
+border-radius: 7px;
+filter: brightness(50%);
+}
+
+.heading {
+    color: #44425a;
+}
+
+.paragraph {
+    color: #44425a;
+    box-sizing: border-box;
+    width: 42rem;
+    letter-spacing: 1px;
+}

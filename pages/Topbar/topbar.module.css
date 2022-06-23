@@ -1,0 +1,39 @@
+.Container{
+    display: flex;
+    justify-content: space-evenly;
+    color: #44425a;
+}
+.span{
+    color: #f60;
+
+}
+.png{
+    margin-right: 15px;
+}
+.png i{
+    font-size: 30px;
+    color: #f60;
+}
+.Adddress{
+    display: flex;
+    align-items: center;
+}
+.addDetails{
+    display: flex;
+    flex-direction: column;
+}
+.img{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.parag{
+  font-weight: 600;
+  margin-bottom: 4px;
+  }
+  .paragN{
+    margin-top: 4px;
+    margin-bottom: 0.5rem;
+
+  }
+ 
+ 
